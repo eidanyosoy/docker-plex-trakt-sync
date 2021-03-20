@@ -8,7 +8,7 @@ Docker image for https://github.com/Taxel/PlexTraktSync
 A python script that syncs the movies, shows and ratings between trakt and Plex (without needing a PlexPass or Trakt VIP subscription)
 
 
-You should mount two files (see templates) on "/" in order for it to work. 
+You should mount two files (see templates) on "/app" in order for it to work. 
 
 
 Get your trakt authentication info by doing the following steps.
