@@ -16,6 +16,6 @@ RUN pip install --no-cache-dir \
     git clone https://github.com/Taxel/PlexTraktSync.git && \
     mv PlexTraktSync/* /app
 
-ENTRYPOINT ["python", "-u"]
+ENTRYPOINT ["/bin/bash", "-c"]
 
-CMD ["/app/main.py"]
+CMD ["python -u /app/main.py || exit 0"]
